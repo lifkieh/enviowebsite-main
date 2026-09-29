@@ -1,0 +1,15 @@
+{
+  "name": "enviowebsite",
+  "version": "2.0.0",
+  "private": true,
+  "description": "PT Envio Kompound Indonesia — static site + JSON-backed CMS (Node built-ins only, no dependencies).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "user": "node cms-user.js",
+    "build": "node build-content.js",
+    "doctor": "node cms-doctor.js"
+  },
+  "engines": { "node": ">=16" },
+  "license": "UNLICENSED"
+}

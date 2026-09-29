@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Envio CMS</title>
+<link rel="icon" type="image/png" href="assets/images/logo/favicon-256.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/admin.css?v=1">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="loginView" class="login-wrap" hidden>
+  <form class="login-card" id="loginForm">
+    <div class="login-logo"><img src="assets/images/logo/logo-color.png" alt="Envio"><span>CMS</span></div>
+    <p class="login-sub">Masuk untuk mengelola konten situs Envio.</p>
+    <label class="a-field"><span>Username</span><input id="loginUser" autocomplete="username" required></label>
+    <label class="a-field"><span>Password</span><input id="loginPass" type="password" autocomplete="current-password" required></label>
+    <div class="login-error" id="loginError" hidden></div>
+    <button class="a-btn a-btn-solid" id="loginBtn" type="submit">Masuk</button>
+  </form>
+</div>
+
+<!-- APP -->
+<div id="appView" class="app" hidden>
+  <aside class="sidebar">
+    <div class="sidebar-logo"><img src="assets/images/logo/logo-color.png" alt="Envio"><span>CMS</span></div>
+    <nav class="sidebar-nav" id="sidebarNav">
+      <div class="nav-group">Konten</div>
+      <button class="nav-item" data-section="settings">Pengaturan Situs</button>
+      <button class="nav-item" data-section="collections">Koleksi Konten</button>
+      <div class="nav-group">Halaman</div>
+      <button class="nav-item" data-section="home">Beranda</button>
+      <button class="nav-item" data-section="about">About</button>
+      <button class="nav-item" data-section="products">Products</button>
+      <button class="nav-item" data-section="contact">Contact</button>
+      <div class="nav-group">Sistem</div>
+      <button class="nav-item" data-section="riwayat">Cadangan &amp; Riwayat</button>
+      <button class="nav-item" data-section="pengguna">Pengguna</button>
+      <button class="nav-item" data-section="akun">Akun Saya</button>
+      <button class="nav-item" data-section="bantuan">Bantuan</button>
+    </nav>
+    <div class="sidebar-foot">
+      <span class="who" id="whoami"></span>
+      <button class="a-btn a-btn-ghost sm" id="logoutBtn" type="button">Keluar</button>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="topbar-title" id="sectionTitle">Pengaturan Situs</div>
+      <div class="topbar-right">
+        <div class="statusbar" id="statusbar">Memuat status…</div>
+        <button class="a-btn a-btn-solid sm" id="publishBtn" type="button">Simpan &amp; Terbitkan</button>
+      </div>
+    </div>
+    <div class="content" id="content"></div>
+  </main>
+</div>
+
+<!-- session expiry warning -->
+<div id="sessionWarn" class="toast" hidden>
+  <span>Sesi kamu akan berakhir sebentar lagi.</span>
+  <button class="a-btn a-btn-ghost sm" id="extendBtn" type="button">Perpanjang sesi</button>
+</div>
+
+<!-- re-login overlay (keeps your work) -->
+<div id="reloginOverlay" class="overlay" hidden>
+  <form class="login-card" id="reloginForm">
+    <div class="login-logo">Sesi berakhir</div>
+    <p class="login-sub">Masuk lagi untuk melanjutkan. Pekerjaanmu tidak hilang.</p>
+    <label class="a-field"><span>Username</span><input id="reUser" autocomplete="username"></label>
+    <label class="a-field"><span>Password</span><input id="rePass" type="password" autocomplete="current-password"></label>
+    <div class="login-error" id="reError" hidden></div>
+    <button class="a-btn a-btn-solid" id="reBtn" type="submit">Lanjut</button>
+  </form>
+</div>
+
+<div id="modalRoot"></div>
+
+<script src="assets/cms-model.js?v=1"></script>
+<script src="assets/admin.js?v=1"></script>
+</body>
+</html>

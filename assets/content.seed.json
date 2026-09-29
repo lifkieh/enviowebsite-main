@@ -1,0 +1,655 @@
+{
+    "settings": {
+        "identity": {
+            "brand_name": "ENVIO KOMPOUND",
+            "brand_sub": "Indonesia",
+            "company_full": "PT Envio Kompound Indonesia",
+            "logo_color": "assets/images/logo/logo-color.png",
+            "logo_white": "assets/images/logo/logo-white.png",
+            "logo_color_alt": "Envio Kompound logo",
+            "logo_white_alt": "Envio Kompound",
+            "favicon": "assets/images/logo/favicon-256.png",
+            "footer_tagline": "Integrated compostable biopolymer & bioplastic compounding solutions for industrial manufacturers, in Indonesia and beyond.",
+            "website_display": "www.enviocompound.com",
+            "website_url": "https://www.enviocompound.com"
+        },
+        "contact": {
+            "hq_address": "Pergudangan Surya Kadu Blok B7, Jalan Telesonik Raya Kadu Jaya, Curug, Kabupaten Tangerang, Banten, Indonesia 15810",
+            "phone_office": "+62 21 3896 2100",
+            "wa_sales": "+62 8561 151 431",
+            "email": "marketing@enviocompound.com",
+            "maps_embed": "https://maps.google.com/maps?q=Pergudangan%20Surya%20Kadu%20Blok%20B7%2C%20Jalan%20Telesonik%20Raya%20Kadu%20Jaya%2C%20Curug%2C%20Kabupaten%20Tangerang%2C%20Banten%2015810&t=&z=15&ie=UTF8&output=embed"
+        },
+        "nav": {
+            "items": [
+                {
+                    "type": "link",
+                    "label": "Home",
+                    "href": "index.html",
+                    "page": "home"
+                },
+                {
+                    "type": "dropdown",
+                    "label": "About",
+                    "page": "about",
+                    "children": [
+                        {
+                            "label": "About Us",
+                            "href": "about.html#about-us"
+                        },
+                        {
+                            "label": "Vision & Mission",
+                            "href": "about.html#vision-mission"
+                        },
+                        {
+                            "label": "Why Choose Us",
+                            "href": "about.html#why-choose-us"
+                        },
+                        {
+                            "label": "Industries Served",
+                            "href": "about.html#industries-served"
+                        },
+                        {
+                            "label": "Environmental & Quality Commitment",
+                            "href": "about.html#environmental-quality"
+                        }
+                    ]
+                },
+                {
+                    "type": "dropdown",
+                    "label": "Products & Applications",
+                    "page": "products",
+                    "children": [
+                        {
+                            "label": "Core Products & Services",
+                            "href": "products.html#core-products"
+                        },
+                        {
+                            "label": "PLA Compounds",
+                            "href": "products.html#pla-compounds"
+                        },
+                        {
+                            "label": "Natural Resource Compounds",
+                            "href": "products.html#natural-resource-compounds"
+                        }
+                    ]
+                },
+                {
+                    "type": "link",
+                    "label": "Contact",
+                    "href": "contact.html",
+                    "page": "contact"
+                },
+                {
+                    "type": "cta",
+                    "label": "Request a Quote",
+                    "href": "contact.html#inquiry-form"
+                }
+            ]
+        },
+        "footer": {
+            "company_heading": "Company",
+            "company_links": [
+                {
+                    "label": "About Us",
+                    "href": "about.html#about-us"
+                },
+                {
+                    "label": "Vision & Mission",
+                    "href": "about.html#vision-mission"
+                },
+                {
+                    "label": "Industries Served",
+                    "href": "about.html#industries-served"
+                },
+                {
+                    "label": "Environmental & Quality",
+                    "href": "about.html#environmental-quality"
+                }
+            ],
+            "products_heading": "Products",
+            "products_links": [
+                {
+                    "label": "Core Products & Services",
+                    "href": "products.html#core-products"
+                },
+                {
+                    "label": "PLA Compounds",
+                    "href": "products.html#pla-compounds"
+                },
+                {
+                    "label": "Natural Resource Compounds",
+                    "href": "products.html#natural-resource-compounds"
+                }
+            ],
+            "hq_heading": "Headquarters",
+            "copyright_text": "PT Envio Kompound Indonesia. All rights reserved."
+        },
+        "wa_float": {
+            "enabled": true,
+            "number": "",
+            "message": ""
+        },
+        "form": {
+            "email_to": "",
+            "wa_to": "",
+            "product_placeholder": "Select a product...",
+            "other_option_value": "Other / Not sure yet",
+            "other_option_label": "Other / Not sure yet"
+        }
+    },
+    "collections": {
+        "service": [
+            {
+                "ckey": "service-custom",
+                "in_dropdown": true,
+                "form_value": "Custom Bioplastic Compounding",
+                "form_label": "Custom Bioplastic Compounding",
+                "title": "Custom Bioplastic Compounding",
+                "summary": "Precision compounding of base biopolymers with functional additives, fillers, or structural reinforcements to your exact specification.",
+                "description": "Precision compounding of base biopolymers with functional additives, fillers, or structural reinforcements — matched to your process and end-use requirements."
+            },
+            {
+                "ckey": "service-engineering",
+                "in_dropdown": true,
+                "form_value": "Engineering Bioplastics",
+                "form_label": "Engineering Bioplastics",
+                "title": "Engineering Bioplastics",
+                "summary": "Specialized material formulations delivering superior heat resistance, high impact strength, and mechanical durability for demanding applications.",
+                "description": "Specialized material formulations deliver superior heat resistance, high impact strength, and mechanical durability for demanding manufacturing applications."
+            },
+            {
+                "ckey": "service-eco",
+                "in_dropdown": false,
+                "form_value": "",
+                "form_label": "",
+                "title": "Eco-Friendly & Zero Waste",
+                "summary": "High-grade biopolymer resins processed to help clients achieve their corporate sustainability and carbon-footprint targets.",
+                "description": "High-grade product biopolymer resins processed to help clients achieve their corporate sustainability and carbon-footprint targets."
+            }
+        ],
+        "industry": [
+            {
+                "ckey": "ind-food",
+                "icon": "food",
+                "name": "Food & Beverage Packaging"
+            },
+            {
+                "ckey": "ind-3dprint",
+                "icon": "printing",
+                "name": "3D Printing Filaments"
+            },
+            {
+                "ckey": "ind-electronics",
+                "icon": "electronics",
+                "name": "Electronics & Appliances"
+            },
+            {
+                "ckey": "ind-beauty",
+                "icon": "beauty",
+                "name": "Beauty & Household Items"
+            },
+            {
+                "ckey": "ind-agri",
+                "icon": "agriculture",
+                "name": "Landscape & Agriculture"
+            },
+            {
+                "ckey": "ind-medical",
+                "icon": "medical",
+                "name": "Medical & Hygiene"
+            },
+            {
+                "ckey": "ind-construct",
+                "icon": "construction",
+                "name": "Building & Construction"
+            }
+        ],
+        "pillar": [
+            {
+                "ckey": "pillar-innovation",
+                "title": "Continuous Innovation",
+                "summary": "high-performance formulations adapted to advancing industrial technologies",
+                "description": "Develop high-performance bioplastic formulations that adapt to advancing industrial technologies."
+            },
+            {
+                "ckey": "pillar-quality",
+                "title": "Uncompromised Quality",
+                "summary": "strict controls guaranteeing consistency across every shipment",
+                "description": "Enforce strict quality control standards to guarantee product consistency across every shipment."
+            },
+            {
+                "ckey": "pillar-integrated",
+                "title": "Integrated Solutions",
+                "summary": "technical expertise and tailor-made formulations for complex engineering challenges",
+                "description": "Provide technical expertise and tailor-made formulations to solve complex client engineering challenges."
+            },
+            {
+                "ckey": "pillar-environment",
+                "title": "Environmental Responsibility",
+                "summary": "eco-friendly technologies and high-grade recycled compounds supporting a circular economy",
+                "description": "Promote eco-friendly technologies and high-grade recycled compounds to support a circular economy."
+            }
+        ],
+        "compound_family": [
+            {
+                "ckey": "cf-pla",
+                "in_dropdown": true,
+                "form_value": "PLA Compounds",
+                "form_label": "PLA Compounds",
+                "title": "PLA Compounds",
+                "card_summary": "Industrial compostable compounds from renewable biobased feedstock, replacing petrochemical plastics.",
+                "image": "assets/images/products/pla-compound.jpg",
+                "card_alt": "PLA Compounds",
+                "link": "products.html#pla-compounds",
+                "eyebrow": "Core Material",
+                "detail_image": "assets/images/products/pla-compound.jpg",
+                "detail_alt": "PLA Compounds visual",
+                "description": "Industrial compostable compounds made from renewable biobased feedstock, invented to replace petrochemical based plastics and reduce environmental impact.",
+                "applications_title": "Applications",
+                "applications": [
+                    "Food & Beverage Packaging",
+                    "3D Printing Filaments",
+                    "Film Extrusion",
+                    "Paper Coating",
+                    "Injection Moldable Items",
+                    "Fibers & Nonwovens"
+                ]
+            },
+            {
+                "ckey": "cf-natural",
+                "in_dropdown": false,
+                "form_value": "",
+                "form_label": "",
+                "title": "Natural Resource Compounds",
+                "card_summary": "Coffee, wood, cellulose, cassava & sugarcane based compounds reducing CO₂ footprint.",
+                "image": "assets/images/products/sugarcane-compound.jpg",
+                "card_alt": "Natural Resource Compounds",
+                "link": "products.html#natural-resource-compounds"
+            }
+        ],
+        "nrc": [
+            {
+                "ckey": "nrc-coffee",
+                "name": "Coffee Powder Compound",
+                "card_desc": "Upcycled spent coffee grounds blended with biopolymer resin.",
+                "image": "assets/images/products/coffee-powder-compound.jpg",
+                "image_alt": "Coffee Powder Compound sample",
+                "list_name": "Coffee Powder Compounds",
+                "in_dropdown": true,
+                "form_value": "Natural Resource Compound – Coffee Powder",
+                "form_label": "Natural Resource Compound — Coffee Powder"
+            },
+            {
+                "ckey": "nrc-wood",
+                "name": "Wood Chip Compound",
+                "card_desc": "Fine wood fiber reinforced compound for rigid moulded parts.",
+                "image": "assets/images/products/wood-chip-compound.jpg",
+                "image_alt": "Wood Chip Compound sample",
+                "list_name": "Wood Chip Compounds",
+                "in_dropdown": true,
+                "form_value": "Natural Resource Compound – Wood Chip",
+                "form_label": "Natural Resource Compound — Wood Chip"
+            },
+            {
+                "ckey": "nrc-cellulose",
+                "name": "Cellulose Compound",
+                "card_desc": "Plant-fiber cellulose matrix for lightweight, stable parts.",
+                "image": "assets/images/products/cellulose-compound.jpg",
+                "image_alt": "Cellulose Compound sample",
+                "list_name": "Cellulose Compounds",
+                "in_dropdown": true,
+                "form_value": "Natural Resource Compound – Cellulose",
+                "form_label": "Natural Resource Compound — Cellulose"
+            },
+            {
+                "ckey": "nrc-cassava",
+                "name": "Cassava Compound",
+                "card_desc": "Starch-based cassava feedstock for compostable applications.",
+                "image": "assets/images/products/cassava-compound.jpg",
+                "image_alt": "Cassava Compound sample",
+                "list_name": "Cassava Compounds",
+                "in_dropdown": true,
+                "form_value": "Natural Resource Compound – Cassava",
+                "form_label": "Natural Resource Compound — Cassava"
+            },
+            {
+                "ckey": "nrc-sugarcane",
+                "name": "Sugarcane Compound",
+                "card_desc": "Bagasse-derived fiber compound with a lower carbon footprint.",
+                "image": "assets/images/products/sugarcane-compound.jpg",
+                "image_alt": "Sugarcane Compound sample",
+                "list_name": "Sugarcane Compounds",
+                "in_dropdown": true,
+                "form_value": "Natural Resource Compound – Sugarcane",
+                "form_label": "Natural Resource Compound — Sugarcane"
+            }
+        ],
+        "why_choose": [
+            {
+                "ckey": "why-1",
+                "title": "Technical Expertise & Global Partnerships",
+                "description": "Strong networks with the world's most renowned biopolymer partners give us access to advanced compounding technology and up-to-date material science."
+            },
+            {
+                "ckey": "why-2",
+                "title": "Precision, Tailor-Made Formulations",
+                "description": "Every compound is engineered with precise mechanical, thermal, and chemical resistance properties tailored to your exact application — not a one-size-fits-all resin."
+            },
+            {
+                "ckey": "why-3",
+                "title": "Rigorous, Consistent Quality Control",
+                "description": "Strict quality standards are enforced at every stage to guarantee product consistency across every shipment, batch after batch."
+            },
+            {
+                "ckey": "why-4",
+                "title": "Sustainability at the Core",
+                "description": "Zero-waste manufacturing principles and high-grade recycled compounds help clients hit their own corporate sustainability and carbon-footprint targets."
+            },
+            {
+                "ckey": "why-5",
+                "title": "A Responsive B2B Partner",
+                "description": "Based in Tangerang, Indonesia, and structured to support both domestic and international manufacturing clients with direct, responsive communication."
+            }
+        ],
+        "env_item": [
+            {
+                "ckey": "env-1",
+                "title": "Zero-Waste Principles",
+                "description": "Manufacturing processes designed to minimize material loss and environmental impact at every stage."
+            },
+            {
+                "ckey": "env-2",
+                "title": "International Quality Alignment",
+                "description": "Operations aligned with international quality management standards and environmental compliance regulations."
+            },
+            {
+                "ckey": "env-3",
+                "title": "Circular Economy Focus",
+                "description": "High-grade recycled and bio-based compounds that help clients meet their own sustainability targets."
+            }
+        ]
+    },
+    "pages": {
+        "home": {
+            "title": "PT Envio Kompound Indonesia | Compostable Biopolymer & Bioplastic Compounding",
+            "seo_desc": "PT Envio Kompound Indonesia is a premier manufacturer of compostable biopolymer and custom bioplastic compounds for food packaging, 3D printing, electronics, agriculture, medical and construction industries.",
+            "seo_title": "",
+            "og_image": "",
+            "sections": {
+                "hero": {
+                    "eyebrow": "PT Envio Kompound Indonesia · Est. 2025",
+                    "heading": "Integrated Compostable Biopolymer & Bioplastic Compounding Solutions",
+                    "lead": "A premier Indonesian manufacturer specializing in compostable biopolymer processing, material formulation, and custom bioplastic compounding — engineered to meet the rigorous demands of domestic and international industries.",
+                    "video": "assets/video/hero-lab.mp4",
+                    "poster": "assets/video/hero-poster.jpg",
+                    "buttons": [
+                        {
+                            "label": "Explore Our Products",
+                            "href": "products.html",
+                            "style": "btn-primary"
+                        },
+                        {
+                            "label": "Request a Quote",
+                            "href": "contact.html#inquiry-form",
+                            "style": "btn-outline"
+                        }
+                    ],
+                    "stats": [
+                        {
+                            "number": "7+",
+                            "label": "Industries Served"
+                        },
+                        {
+                            "number": "2",
+                            "label": "Core Compound Families"
+                        },
+                        {
+                            "number": "2025",
+                            "label": "Manufacturing Established"
+                        }
+                    ],
+                    "panel_title": "Why manufacturers work with us",
+                    "panel_points": [
+                        "Precision compounding tailored to exact mechanical, thermal & chemical resistance specs",
+                        "Strong sourcing network with world-renowned biopolymer partners",
+                        "Zero-waste manufacturing aligned with international quality & environmental standards",
+                        "Tailor-made formulations backed by responsive technical support"
+                    ]
+                },
+                "who-we-are": {
+                    "eyebrow": "Who We Are",
+                    "heading": "Engineering sustainable materials, built for industry",
+                    "paragraphs": [
+                        "PT Envio Kompound Indonesia, established in October 2025, is a premier manufacturing enterprise specializing in compostable biopolymer processing, material formulation, and custom bioplastic compounding. Driven by a commitment to high-quality standards and sustainability, we deliver tailored resin formulations and custom compounding solutions designed to meet the rigorous demands of domestic and international industries.",
+                        "Utilizing advanced compounding technology and strong networks with the world's most renowned partners, we engineer materials with precise mechanical, thermal, and chemical resistance properties tailored to your exact application."
+                    ],
+                    "button": {
+                        "label": "Learn more about us",
+                        "href": "about.html#about-us"
+                    },
+                    "panel_title": "Our Mission Pillars"
+                },
+                "what-we-offer": {
+                    "eyebrow": "What We Offer",
+                    "heading": "Core Products & Services",
+                    "intro": "From precision compounding to zero-waste resin engineering — capabilities built around your production line.",
+                    "button": {
+                        "label": "View Product Range",
+                        "href": "products.html#core-products"
+                    }
+                },
+                "our-materials": {
+                    "eyebrow": "Our Materials",
+                    "heading": "Two Compound Families, Built to Replace Petrochemical Plastics"
+                },
+                "industries": {
+                    "eyebrow": "Industries Served",
+                    "heading": "Custom Polymer Compounds Across Industrial Sectors"
+                },
+                "cta": {
+                    "heading": "Let's Build Sustainable Materials Together",
+                    "text": "Tell us your application and specification — our team will respond with a tailored compound recommendation.",
+                    "button": {
+                        "label": "Send an Inquiry",
+                        "href": "contact.html#inquiry-form"
+                    }
+                }
+            }
+        },
+        "about": {
+            "title": "About Us | PT Envio Kompound Indonesia",
+            "seo_desc": "Learn about PT Envio Kompound Indonesia's vision, mission, industries served, and environmental & quality commitment as a compostable biopolymer compounding manufacturer.",
+            "seo_title": "",
+            "og_image": "",
+            "sections": {
+                "hero": {
+                    "breadcrumb": "About",
+                    "heading": "About PT Envio Kompound Indonesia",
+                    "subtitle": "A premier manufacturer of compostable biopolymer and custom bioplastic compounds — built on innovation, quality, and environmental responsibility."
+                },
+                "about-us": {
+                    "nav_label": "About Us",
+                    "eyebrow": "About Us",
+                    "heading": "A Premier Manufacturing Enterprise",
+                    "paragraphs": [
+                        "PT Envio Kompound Indonesia, established in October 2025, is a premier manufacturing enterprise specializing in compostable biopolymer processing, material formulation, and custom bioplastic compounding. Driven by a commitment to high-quality standards and sustainability, we deliver tailored resin formulations and custom compounding solutions designed to meet the rigorous demands of domestic and international industries.",
+                        "Utilizing advanced compounding technology and strong networks with the world's most renowned partners, we engineer materials with precise mechanical, thermal, and chemical resistance properties tailored to exact client applications."
+                    ],
+                    "panel_title": "At a Glance",
+                    "panel_points": [
+                        "Established October 2025",
+                        "Headquartered in Curug, Tangerang, Banten, Indonesia",
+                        "Focus: compostable biopolymer & bioplastic compounding",
+                        "Serving domestic & international manufacturing clients"
+                    ]
+                },
+                "vision-mission": {
+                    "nav_label": "Vision & Mission",
+                    "eyebrow": "Vision & Mission",
+                    "heading": "Where We're Headed, and How We Get There",
+                    "vision_title": "Vision",
+                    "vision_text": "To be a leading, trusted, and sustainable bioplastic compounding manufacturer in Indonesia, capable of competing globally through continuous biopolymer material innovation and consideration of environmental impact.",
+                    "mission_title": "Mission",
+                    "mission_text": "Deliver continuous innovation, uncompromised quality, integrated solutions, and environmental responsibility in every compound we produce."
+                },
+                "why-choose-us": {
+                    "nav_label": "Why Choose Us",
+                    "eyebrow": "Why Choose Us",
+                    "heading": "We're More Than Bioplastic Compounders",
+                    "intro": "A manufacturing partner built around technical depth, responsiveness, and a genuine commitment to sustainable material science."
+                },
+                "industries-served": {
+                    "nav_label": "Industries Served",
+                    "eyebrow": "Industries Served",
+                    "heading": "We Supply Custom Polymer Compounds Across a Wide Array of Industrial Sectors"
+                },
+                "environmental-quality": {
+                    "nav_label": "Environmental & Quality",
+                    "eyebrow": "Environmental & Quality Commitment",
+                    "heading": "Zero-Waste Manufacturing, Aligned With International Standards",
+                    "text": "PT Envio Kompound Indonesia incorporates zero-waste management principles across manufacturing processes to minimize environmental impact. Our operations align with international quality management standards and environmental compliance regulations.",
+                    "button": {
+                        "label": "Discuss Your Requirements",
+                        "href": "contact.html#inquiry-form"
+                    }
+                },
+                "cta": {
+                    "heading": "Have a Formulation Challenge?",
+                    "text": "Our technical team can help scope the right compound for your production line.",
+                    "button": {
+                        "label": "Send an Inquiry",
+                        "href": "contact.html#inquiry-form"
+                    }
+                }
+            }
+        },
+        "products": {
+            "title": "Products & Applications | PT Envio Kompound Indonesia",
+            "seo_desc": "Explore PT Envio Kompound Indonesia's core products and services: custom bioplastic compounding, PLA compounds, and natural resource compounds including coffee, wood, cellulose, cassava and sugarcane based materials.",
+            "seo_title": "",
+            "og_image": "",
+            "sections": {
+                "hero": {
+                    "breadcrumb": "Products & Applications",
+                    "heading": "Products & Applications",
+                    "subtitle": "Custom bioplastic compounding, PLA compounds, and natural resource compounds — engineered for food packaging, 3D printing, electronics, beauty, agriculture, medical and construction applications."
+                },
+                "core-products": {
+                    "nav_label": "Core Products & Services",
+                    "eyebrow": "Core Products & Services",
+                    "heading": "Compounding Capabilities Built Around Your Application"
+                },
+                "pla-compounds": {
+                    "nav_label": "PLA Compounds"
+                },
+                "natural-resource-compounds": {
+                    "nav_label": "Natural Resource Compounds",
+                    "eyebrow": "Natural Resource Compounds",
+                    "heading": "Renewable Feedstock, Compounded to Reduce Carbon Impact",
+                    "intro": "Natural resources are compounded with petrochemical based plastics, invented to reduce the carbon-dioxide released when incinerated.",
+                    "custom_title": "Need a Custom Blend?",
+                    "custom_text": "Our team can formulate a natural resource compound around your feedstock and application.",
+                    "custom_button": {
+                        "label": "Request a Formulation",
+                        "href": "contact.html#inquiry-form"
+                    },
+                    "compounds_list_title": "Compounds List",
+                    "applications_title": "Applications",
+                    "applications": [
+                        "Drinking Straws",
+                        "Injection Moldable Items (Cutleries, Cups, Capsules)",
+                        "Picture Frames"
+                    ]
+                },
+                "cta": {
+                    "heading": "Need a Custom Formulation?",
+                    "text": "Talk to our team about your material spec, volume, and application — we'll recommend the right compound.",
+                    "button": {
+                        "label": "Talk to Our Team",
+                        "href": "contact.html#inquiry-form"
+                    }
+                }
+            }
+        },
+        "contact": {
+            "title": "Contact Us | PT Envio Kompound Indonesia",
+            "seo_desc": "Get in touch with PT Envio Kompound Indonesia for custom bioplastic compounding inquiries. Send an inquiry directly via WhatsApp or Email.",
+            "seo_title": "",
+            "og_image": "",
+            "sections": {
+                "hero": {
+                    "breadcrumb": "Contact",
+                    "heading": "Let's Talk About Your Compound Requirements",
+                    "subtitle": "Reach our team directly, or send a detailed inquiry below — we'll route it straight to WhatsApp or Email, whichever you prefer."
+                },
+                "contact-info": {
+                    "eyebrow": "Contact Information",
+                    "heading": "Headquarters & Plant",
+                    "row_hq_label": "Headquarters / Plant",
+                    "row_sales_label": "Phone — Sales",
+                    "row_sales_suffix": " (WhatsApp)",
+                    "row_office_label": "Phone — Office",
+                    "row_email_label": "Email",
+                    "row_website_label": "Website",
+                    "map_title": "PT Envio Kompound Indonesia location map"
+                },
+                "inquiry-form": {
+                    "eyebrow": "Form Inquiry",
+                    "heading": "Send a B2B Inquiry",
+                    "intro": "Fill in your requirements below. Choose to send it instantly via WhatsApp or Email — no account or sign-up needed.",
+                    "fields": {
+                        "name": {
+                            "label": "Full Name",
+                            "placeholder": "Your full name",
+                            "required": true,
+                            "error": "Please enter your name."
+                        },
+                        "company": {
+                            "label": "Company Name",
+                            "placeholder": "Your company",
+                            "required": true,
+                            "error": "Please enter your company name."
+                        },
+                        "email": {
+                            "label": "Email Address",
+                            "placeholder": "you@company.com",
+                            "required": true,
+                            "error": "Please enter a valid email address."
+                        },
+                        "phone": {
+                            "label": "Phone / WhatsApp",
+                            "placeholder": "+62 8xx xxxx xxxx",
+                            "required": true,
+                            "error": "Please enter your phone number."
+                        },
+                        "location": {
+                            "label": "Country / City",
+                            "placeholder": "e.g. Jakarta, Indonesia",
+                            "required": false
+                        },
+                        "quantity": {
+                            "label": "Estimated Quantity",
+                            "placeholder": "e.g. 500 kg / month",
+                            "required": false
+                        },
+                        "product": {
+                            "label": "Product Interest",
+                            "required": true,
+                            "error": "Please select a product of interest."
+                        },
+                        "message": {
+                            "label": "Your Requirements",
+                            "placeholder": "Describe your application, target properties, volume, and timeline...",
+                            "required": true,
+                            "error": "Please describe your requirements."
+                        }
+                    },
+                    "btn_whatsapp": "Send via WhatsApp",
+                    "btn_email": "Send via Email",
+                    "disclaimer": "By submitting, you'll be redirected to WhatsApp or your email client with your inquiry pre-filled — nothing is sent automatically or stored on this site."
+                }
+            }
+        }
+    }
+}

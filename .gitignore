@@ -1,0 +1,24 @@
+# Generated from live data at deploy/publish — never tracked (avoids merge conflicts).
+/assets/content.js
+
+# Images uploaded through the CMS at runtime (kept in web root). Original project images stay tracked.
+/assets/images/uploads/
+
+# Secrets & local env
+.env
+
+# Live CMS data lives OUTSIDE the repo (CMS_DATA_DIR, default ../enviowebsite-cms-data). Never commit.
+# These lines are a safety net in case a data dir is placed inside the repo by mistake.
+/enviowebsite-cms-data/
+/data/
+/backups/
+
+# Node
+node_modules/
+
+# Temp
+*.tmp
+*.log
+
+# Build artifacts
+*.zip
